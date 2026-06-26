@@ -1,0 +1,56 @@
+# Project outputs and archived work
+deprecated/
+examples/
+figures/
+full-pauli-decomposition/
+mathematica/
+results/
+
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.hypothesis/
+.coverage
+.coverage.*
+htmlcov/
+
+# Python build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Virtual environments and local environment files
+.venv/
+venv/
+env/
+ENV/
+.env
+.env.*
+
+# Jupyter / IPython generated state
+.ipynb_checkpoints/
+.ipython/
+
+# Generated data artifacts
+*.pkl
+*.pickle
+*.npy
+*.npz
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+.vscode/
+.idea/
